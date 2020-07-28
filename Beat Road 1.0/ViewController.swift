@@ -21,7 +21,7 @@ class ViewController: UIViewController {
 //FUNCTIONS/ACTIONS
     
 
-@IBAction func unwindToRed(unwindSegue: UIStoryboardSegue) {} // func used to revert setting screen to menu
+@IBAction func unwindToRed(unwindSegue: UIStoryboardSegue) { } // func used to revert setting screen to menu
     
     
     
