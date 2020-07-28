@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05708FAD24D0C0B9007D452E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 05708FAC24D0C0B9007D452E /* GoogleService-Info.plist */; };
 		18D231CB24CCEF9200344EAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D231CA24CCEF9200344EAA /* AppDelegate.swift */; };
 		18D231CD24CCEF9200344EAA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D231CC24CCEF9200344EAA /* SceneDelegate.swift */; };
 		18D231CF24CCEF9200344EAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D231CE24CCEF9200344EAA /* ViewController.swift */; };
@@ -15,6 +16,9 @@
 		18D231D724CCEF9400344EAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D231D524CCEF9400344EAA /* LaunchScreen.storyboard */; };
 		18D231E224CCEF9400344EAA /* Beat_Road_1_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D231E124CCEF9400344EAA /* Beat_Road_1_0Tests.swift */; };
 		18D231ED24CCEF9400344EAA /* Beat_Road_1_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D231EC24CCEF9400344EAA /* Beat_Road_1_0UITests.swift */; };
+		51C0B127C00EB3CD5E2F7964 /* Pods_Beat_Road_1_0Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77522974F6B8D11417BB9C29 /* Pods_Beat_Road_1_0Tests.framework */; };
+		6F3BF018E250A50699E77E53 /* Pods_Beat_Road_1_0_Beat_Road_1_0UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D73787062CBA10C850EF23 /* Pods_Beat_Road_1_0_Beat_Road_1_0UITests.framework */; };
+		E37914D8038EDB4EEA6B2328 /* Pods_Beat_Road_1_0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54EA62ADEB518ECADF59B679 /* Pods_Beat_Road_1_0.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05708FAC24D0C0B9007D452E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		13F167143584A5FC9240CDB9 /* Pods-Beat Road 1.0Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Beat Road 1.0Tests.debug.xcconfig"; path = "Target Support Files/Pods-Beat Road 1.0Tests/Pods-Beat Road 1.0Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		18D231C724CCEF9200344EAA /* Beat Road 1.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Beat Road 1.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D231CA24CCEF9200344EAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18D231CC24CCEF9200344EAA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +55,14 @@
 		18D231E824CCEF9400344EAA /* Beat Road 1.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Beat Road 1.0UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D231EC24CCEF9400344EAA /* Beat_Road_1_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beat_Road_1_0UITests.swift; sourceTree = "<group>"; };
 		18D231EE24CCEF9400344EAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54EA62ADEB518ECADF59B679 /* Pods_Beat_Road_1_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Beat_Road_1_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E322E0C6BFE2E05951E3443 /* Pods-Beat Road 1.0-Beat Road 1.0UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Beat Road 1.0-Beat Road 1.0UITests.debug.xcconfig"; path = "Target Support Files/Pods-Beat Road 1.0-Beat Road 1.0UITests/Pods-Beat Road 1.0-Beat Road 1.0UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6346F34EE240014CE42FFEAB /* Pods-Beat Road 1.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Beat Road 1.0.debug.xcconfig"; path = "Target Support Files/Pods-Beat Road 1.0/Pods-Beat Road 1.0.debug.xcconfig"; sourceTree = "<group>"; };
+		66710AC371BF1C6FE4CFFC4D /* Pods-Beat Road 1.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Beat Road 1.0.release.xcconfig"; path = "Target Support Files/Pods-Beat Road 1.0/Pods-Beat Road 1.0.release.xcconfig"; sourceTree = "<group>"; };
+		77522974F6B8D11417BB9C29 /* Pods_Beat_Road_1_0Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Beat_Road_1_0Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94D73787062CBA10C850EF23 /* Pods_Beat_Road_1_0_Beat_Road_1_0UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Beat_Road_1_0_Beat_Road_1_0UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C708A87CFD4C91F3D0044AC5 /* Pods-Beat Road 1.0Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Beat Road 1.0Tests.release.xcconfig"; path = "Target Support Files/Pods-Beat Road 1.0Tests/Pods-Beat Road 1.0Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E65950B34FF1AF7EB4FAAE38 /* Pods-Beat Road 1.0-Beat Road 1.0UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Beat Road 1.0-Beat Road 1.0UITests.release.xcconfig"; path = "Target Support Files/Pods-Beat Road 1.0-Beat Road 1.0UITests/Pods-Beat Road 1.0-Beat Road 1.0UITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E37914D8038EDB4EEA6B2328 /* Pods_Beat_Road_1_0.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51C0B127C00EB3CD5E2F7964 /* Pods_Beat_Road_1_0Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F3BF018E250A50699E77E53 /* Pods_Beat_Road_1_0_Beat_Road_1_0UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +100,8 @@
 				18D231E024CCEF9400344EAA /* Beat Road 1.0Tests */,
 				18D231EB24CCEF9400344EAA /* Beat Road 1.0UITests */,
 				18D231C824CCEF9200344EAA /* Products */,
+				80D32E80CFF3D6BE889EA53A /* Pods */,
+				F040BC9E20B1E2E70B7D3D5C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +124,7 @@
 				18D231D024CCEF9200344EAA /* Main.storyboard */,
 				18D231D324CCEF9400344EAA /* Assets.xcassets */,
 				18D231D524CCEF9400344EAA /* LaunchScreen.storyboard */,
+				05708FAC24D0C0B9007D452E /* GoogleService-Info.plist */,
 				18D231D824CCEF9400344EAA /* Info.plist */,
 			);
 			path = "Beat Road 1.0";
@@ -128,6 +148,30 @@
 			path = "Beat Road 1.0UITests";
 			sourceTree = "<group>";
 		};
+		80D32E80CFF3D6BE889EA53A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6346F34EE240014CE42FFEAB /* Pods-Beat Road 1.0.debug.xcconfig */,
+				66710AC371BF1C6FE4CFFC4D /* Pods-Beat Road 1.0.release.xcconfig */,
+				5E322E0C6BFE2E05951E3443 /* Pods-Beat Road 1.0-Beat Road 1.0UITests.debug.xcconfig */,
+				E65950B34FF1AF7EB4FAAE38 /* Pods-Beat Road 1.0-Beat Road 1.0UITests.release.xcconfig */,
+				13F167143584A5FC9240CDB9 /* Pods-Beat Road 1.0Tests.debug.xcconfig */,
+				C708A87CFD4C91F3D0044AC5 /* Pods-Beat Road 1.0Tests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F040BC9E20B1E2E70B7D3D5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54EA62ADEB518ECADF59B679 /* Pods_Beat_Road_1_0.framework */,
+				94D73787062CBA10C850EF23 /* Pods_Beat_Road_1_0_Beat_Road_1_0UITests.framework */,
+				77522974F6B8D11417BB9C29 /* Pods_Beat_Road_1_0Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18D231F124CCEF9400344EAA /* Build configuration list for PBXNativeTarget "Beat Road 1.0" */;
 			buildPhases = (
+				C66E0EC3C2A9D9D6E7D562CF /* [CP] Check Pods Manifest.lock */,
 				18D231C324CCEF9200344EAA /* Sources */,
 				18D231C424CCEF9200344EAA /* Frameworks */,
 				18D231C524CCEF9200344EAA /* Resources */,
+				2DA65274279A1992B55C63AE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18D231F424CCEF9400344EAA /* Build configuration list for PBXNativeTarget "Beat Road 1.0Tests" */;
 			buildPhases = (
+				88C8AFC4DCB87A2B9F9A43F4 /* [CP] Check Pods Manifest.lock */,
 				18D231D924CCEF9400344EAA /* Sources */,
 				18D231DA24CCEF9400344EAA /* Frameworks */,
 				18D231DB24CCEF9400344EAA /* Resources */,
@@ -170,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18D231F724CCEF9400344EAA /* Build configuration list for PBXNativeTarget "Beat Road 1.0UITests" */;
 			buildPhases = (
+				2F30136B97A702630264FC8E /* [CP] Check Pods Manifest.lock */,
 				18D231E424CCEF9400344EAA /* Sources */,
 				18D231E524CCEF9400344EAA /* Frameworks */,
 				18D231E624CCEF9400344EAA /* Resources */,
+				3C8C2B3E2089AE04910C63DC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18D231D724CCEF9400344EAA /* LaunchScreen.storyboard in Resources */,
+				05708FAD24D0C0B9007D452E /* GoogleService-Info.plist in Resources */,
 				18D231D424CCEF9400344EAA /* Assets.xcassets in Resources */,
 				18D231D224CCEF9200344EAA /* Main.storyboard in Resources */,
 			);
@@ -253,6 +303,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2DA65274279A1992B55C63AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Beat Road 1.0/Pods-Beat Road 1.0-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Beat Road 1.0/Pods-Beat Road 1.0-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Beat Road 1.0/Pods-Beat Road 1.0-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F30136B97A702630264FC8E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Beat Road 1.0-Beat Road 1.0UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C8C2B3E2089AE04910C63DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Beat Road 1.0-Beat Road 1.0UITests/Pods-Beat Road 1.0-Beat Road 1.0UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Beat Road 1.0-Beat Road 1.0UITests/Pods-Beat Road 1.0-Beat Road 1.0UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Beat Road 1.0-Beat Road 1.0UITests/Pods-Beat Road 1.0-Beat Road 1.0UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88C8AFC4DCB87A2B9F9A43F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Beat Road 1.0Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C66E0EC3C2A9D9D6E7D562CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Beat Road 1.0-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		18D231C324CCEF9200344EAA /* Sources */ = {
@@ -432,6 +585,7 @@
 		};
 		18D231F224CCEF9400344EAA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6346F34EE240014CE42FFEAB /* Pods-Beat Road 1.0.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +603,7 @@
 		};
 		18D231F324CCEF9400344EAA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66710AC371BF1C6FE4CFFC4D /* Pods-Beat Road 1.0.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +621,7 @@
 		};
 		18D231F524CCEF9400344EAA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13F167143584A5FC9240CDB9 /* Pods-Beat Road 1.0Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +643,7 @@
 		};
 		18D231F624CCEF9400344EAA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C708A87CFD4C91F3D0044AC5 /* Pods-Beat Road 1.0Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +665,7 @@
 		};
 		18D231F824CCEF9400344EAA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E322E0C6BFE2E05951E3443 /* Pods-Beat Road 1.0-Beat Road 1.0UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +685,7 @@
 		};
 		18D231F924CCEF9400344EAA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E65950B34FF1AF7EB4FAAE38 /* Pods-Beat Road 1.0-Beat Road 1.0UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
