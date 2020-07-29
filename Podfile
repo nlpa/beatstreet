@@ -8,6 +8,7 @@ target 'Beat Road 1.0' do
   # Pods for Beat Road 1.0
 
   pod 'Firebase/Core'
+  pod 'Firebase/Auth'
 
   target 'Beat Road 1.0Tests' do
     inherit! :search_paths
