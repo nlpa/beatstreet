@@ -83,7 +83,7 @@
         <!--View Controller-->
         <scene sceneID="Q7n-Hu-FBY">
             <objects>
-                <viewController id="mws-U8-9zq" sceneMemberID="viewController">
+                <viewController id="mws-U8-9zq" customClass="ViewController" customModule="Beat_Road_1_0" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="39o-CY-okc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -158,7 +158,7 @@
         <!--View Controller-->
         <scene sceneID="Yi4-Af-1LE">
             <objects>
-                <viewController id="MOn-dc-Ohq" sceneMemberID="viewController">
+                <viewController id="MOn-dc-Ohq" customClass="ViewController" customModule="Beat_Road_1_0" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Mfk-7m-KIL">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -250,7 +250,7 @@
         <!--View Controller-->
         <scene sceneID="oiu-tT-JXE">
             <objects>
-                <viewController id="mzi-nQ-hrX" sceneMemberID="viewController">
+                <viewController id="mzi-nQ-hrX" customClass="ViewController" customModule="Beat_Road_1_0" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0Oa-SU-vPG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -287,7 +287,7 @@
         <!--View Controller-->
         <scene sceneID="WfL-qG-Y4U">
             <objects>
-                <viewController id="6gY-0O-Dum" sceneMemberID="viewController">
+                <viewController id="6gY-0O-Dum" customClass="ViewController" customModule="Beat_Road_1_0" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vSu-c3-ZN8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
