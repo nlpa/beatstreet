@@ -8,29 +8,35 @@
 
 import UIKit
 
-class VoteStreetTableViewController: UITableViewController {
+class VoteStreetTableViewController: UITableViewController // view controller holding some basic preset data as examples
+{
     var streets = [Street]()
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let street1 = Street(name: "Montrose and Harding", image: UIImage(named: "street1"), votes: 93)
+        let street1 = Street(name: "1) Pulaski & Foster", image: UIImage(named: "street1"), votes: 108)
+          
+        let street2 = Street(name: "2) Lake & Laramie", image: UIImage(named: "street2"), votes: 87)
         
-        let street2 = Street(name: "Lake and Laramie", image: UIImage(named: "street2"), votes: 87)
+        let street3 = Street(name: "3) Lawrence & Central", image: UIImage(named: "street3"), votes: 46)
         
-        let street3 = Street(name: "Lawrence and Central", image: UIImage(named: "street3"), votes: 46)
+        let street4 = Street(name: "4) Irving Park & Austin", image: UIImage(named: "street4"), votes: 28)
         
-        let street4 = Street(name: "Irving Park and Austin", image: UIImage(named: "street4"), votes: 28)
+        let street5 = Street(name: "5) 26th & Cicero", image: UIImage(named: "street5"), votes: 18)
         
-        let street5 = Street(name: "26th and Cicero", image: UIImage(named: "street5"), votes: 18)
-        
-        let street6 = Street(name: "Lake and Laramie", image: UIImage(named: "street6"), votes: 4)
-        
-        
+        let street6 = Street(name: "Lake & Laramie", image: UIImage(named: "street6"), votes: 4)
         
         
-        streets = [street1, street2, street3, street4 , street5 , street6] // used to append
+    
+        streets = [street1, street2, street3, street4 , street5 , street6] // used to append our pre-SET data.
         
-//var streets = ["Montrose and Harding" , "Lawrence and Central" , "26th Cicero" , "Montrose and Harding" , "Lawrence and Central" , "26th Cicero"]
+        
+        
+        
+        
+        
+        
+
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -51,17 +57,18 @@ class VoteStreetTableViewController: UITableViewController {
     }
 
     
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell // cell function to display on screen cell
+    {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath) as! StreetTableViewCell
-        let street = streets[indexPath.row]
-        cell.streetLabel.text = street.name
-        cell.streetImageView.image = street.image!
+        let street = streets[indexPath.row]          // will tie the street class to the data
+        cell.streetLabel.text = street.name         // will display the street names stored in data
+        cell.streetImageView.image = street.image! // will display the images stores in data
         // Configure the cell...
         
         
 
         return cell
-    }
+    } // [tableView END]
     
 
     /*
@@ -109,4 +116,4 @@ class VoteStreetTableViewController: UITableViewController {
     }
     */
 
-}
+}// [CLASS END]

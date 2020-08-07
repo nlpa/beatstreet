@@ -64,8 +64,6 @@ class ReportViewController: UIViewController, UIImagePickerControllerDelegate, U
     }
     
     
-    
-    
     func imagePickerControllerDidCancel(_ picker: UIImagePickerController)
     {
         picker.dismiss(animated: true, completion: nil)
@@ -82,30 +80,25 @@ class ReportViewController: UIViewController, UIImagePickerControllerDelegate, U
     {
         
         
-        if segue.selectedSegmentIndex == 0 {
+        if segue.selectedSegmentIndex == 0 // zero for option 1 "Report a Street"
+        {
             TitleScreenLable.text = "Report A Street"
         }
         
-        if segue.selectedSegmentIndex == 1 {
+        if segue.selectedSegmentIndex == 1 // one for option 2 "Submit Bestowed Road"
+        {
             TitleScreenLable.text = "Submit A Bestowed Road"
         }
         
         
-    }
+    }// [segueChangeSelect END]
     
     
-    @IBAction func onWardButtonPress(_ sender: UIButton) {
+    @IBAction func onWardButtonPress(_ sender: UIButton) // button used to guide users to alderman website if help is needed ("ward num")
+    {
         UIApplication.shared.open(URL(string:"https://www.chicago.gov/city/en/depts/mayor/iframe/lookup_ward_and_alderman.html")! as URL, options: [:], completionHandler: nil)
     } // [onWardButtonPress end]
     
-    /*
-     // MARK: - Navigation
-     
-     // In a storyboard-based application, you will often want to do a little preparation before navigation
-     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-     // Get the new view controller using segue.destination.
-     // Pass the selected object to the new view controller.
-     }
-     */
+ 
     
 }// [class end]
