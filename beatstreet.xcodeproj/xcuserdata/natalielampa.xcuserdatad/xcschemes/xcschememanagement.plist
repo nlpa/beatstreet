@@ -4,15 +4,18 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>BEAT STREET.xcscheme_^#shared#^_</key>
+		<key>beatstreet.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>14</integer>
+			<integer>15</integer>
 		</dict>
-		<key>Beat Road 1.0.xcscheme_^#shared#^_</key>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>18D231C624CCEF9200344EAA</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>0</integer>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
