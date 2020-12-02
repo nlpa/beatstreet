@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>708816340551-iedua3gsgndough0uagdo3dn8uvvus97.apps.googleusercontent.com</string>
+	<string>708816340551-84662mm8nuhfnh203425kthvpuoqads5.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.708816340551-iedua3gsgndough0uagdo3dn8uvvus97</string>
+	<string>com.googleusercontent.apps.708816340551-84662mm8nuhfnh203425kthvpuoqads5</string>
 	<key>API_KEY</key>
 	<string>AIzaSyBlxvdmbaJfsDXTvQWtuU_SDqGEbvGRW7Y</string>
 	<key>GCM_SENDER_ID</key>
@@ -13,7 +13,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.Jorge-Angel.Beat-Road-1-0</string>
+	<string>com.nlampa.beatstreet</string>
 	<key>PROJECT_ID</key>
 	<string>beatstreet-demo</string>
 	<key>STORAGE_BUCKET</key>
@@ -29,7 +29,7 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:708816340551:ios:c7372c0ca4fc2939e55362</string>
+	<string>1:708816340551:ios:d332ecae0c9b76e9e55362</string>
 	<key>DATABASE_URL</key>
 	<string>https://beatstreet-demo.firebaseio.com</string>
 </dict>

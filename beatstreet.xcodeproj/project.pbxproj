@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		05708FAD24D0C0B9007D452E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 05708FAC24D0C0B9007D452E /* GoogleService-Info.plist */; };
-		05C433C42577139E0076DCE6 /* Pods_Beat_Road_1_0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54EA62ADEB518ECADF59B679 /* Pods_Beat_Road_1_0.framework */; };
-		05C433C52577139E0076DCE6 /* Pods_Beat_Road_1_0.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 54EA62ADEB518ECADF59B679 /* Pods_Beat_Road_1_0.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		180DC53324D9F10800B0138F /* VoteStreetTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180DC53224D9F10800B0138F /* VoteStreetTableViewController.swift */; };
 		180DC53524D9F23400B0138F /* StreetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180DC53424D9F23400B0138F /* StreetTableViewCell.swift */; };
 		180DC53724D9F66900B0138F /* Street.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180DC53624D9F66900B0138F /* Street.swift */; };
@@ -21,16 +19,16 @@
 		18D231D724CCEF9400344EAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D231D524CCEF9400344EAA /* LaunchScreen.storyboard */; };
 		18D4F70024D1F9E200874AC1 /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4F6FF24D1F9E200874AC1 /* ReportViewController.swift */; };
 		3E355B942549BB8D006E9317 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E355B932549BB8D006E9317 /* MapViewController.swift */; };
+		AD7B69092A270970FA543EC3 /* Pods_beatstreet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C744DE4246B4F9A58697C50 /* Pods_beatstreet.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		05C433C62577139E0076DCE6 /* Embed Frameworks */ = {
+		05C4340A257722680076DCE6 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				05C433C52577139E0076DCE6 /* Pods_Beat_Road_1_0.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -39,7 +37,7 @@
 
 /* Begin PBXFileReference section */
 		05708FAC24D0C0B9007D452E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		13F167143584A5FC9240CDB9 /* Pods-Beat Road 1.0Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Beat Road 1.0Tests.debug.xcconfig"; path = "Target Support Files/Pods-Beat Road 1.0Tests/Pods-Beat Road 1.0Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1229546A667ABE4B6FBBFD06 /* Pods-beatstreet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-beatstreet.release.xcconfig"; path = "Target Support Files/Pods-beatstreet/Pods-beatstreet.release.xcconfig"; sourceTree = "<group>"; };
 		180DC53224D9F10800B0138F /* VoteStreetTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteStreetTableViewController.swift; sourceTree = "<group>"; };
 		180DC53424D9F23400B0138F /* StreetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreetTableViewCell.swift; sourceTree = "<group>"; };
 		180DC53624D9F66900B0138F /* Street.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Street.swift; sourceTree = "<group>"; };
@@ -52,15 +50,9 @@
 		18D231D624CCEF9400344EAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18D231D824CCEF9400344EAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18D4F6FF24D1F9E200874AC1 /* ReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
+		1C744DE4246B4F9A58697C50 /* Pods_beatstreet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_beatstreet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E355B932549BB8D006E9317 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		54EA62ADEB518ECADF59B679 /* Pods_Beat_Road_1_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Beat_Road_1_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E322E0C6BFE2E05951E3443 /* Pods-Beat Road 1.0-Beat Road 1.0UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Beat Road 1.0-Beat Road 1.0UITests.debug.xcconfig"; path = "Target Support Files/Pods-Beat Road 1.0-Beat Road 1.0UITests/Pods-Beat Road 1.0-Beat Road 1.0UITests.debug.xcconfig"; sourceTree = "<group>"; };
-		6346F34EE240014CE42FFEAB /* Pods-Beat Road 1.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Beat Road 1.0.debug.xcconfig"; path = "Target Support Files/Pods-Beat Road 1.0/Pods-Beat Road 1.0.debug.xcconfig"; sourceTree = "<group>"; };
-		66710AC371BF1C6FE4CFFC4D /* Pods-Beat Road 1.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Beat Road 1.0.release.xcconfig"; path = "Target Support Files/Pods-Beat Road 1.0/Pods-Beat Road 1.0.release.xcconfig"; sourceTree = "<group>"; };
-		77522974F6B8D11417BB9C29 /* Pods_Beat_Road_1_0Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Beat_Road_1_0Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		94D73787062CBA10C850EF23 /* Pods_Beat_Road_1_0_Beat_Road_1_0UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Beat_Road_1_0_Beat_Road_1_0UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C708A87CFD4C91F3D0044AC5 /* Pods-Beat Road 1.0Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Beat Road 1.0Tests.release.xcconfig"; path = "Target Support Files/Pods-Beat Road 1.0Tests/Pods-Beat Road 1.0Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E65950B34FF1AF7EB4FAAE38 /* Pods-Beat Road 1.0-Beat Road 1.0UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Beat Road 1.0-Beat Road 1.0UITests.release.xcconfig"; path = "Target Support Files/Pods-Beat Road 1.0-Beat Road 1.0UITests/Pods-Beat Road 1.0-Beat Road 1.0UITests.release.xcconfig"; sourceTree = "<group>"; };
+		E7330043DEF034FBB74CCCB0 /* Pods-beatstreet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-beatstreet.debug.xcconfig"; path = "Target Support Files/Pods-beatstreet/Pods-beatstreet.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05C433C42577139E0076DCE6 /* Pods_Beat_Road_1_0.framework in Frameworks */,
+				AD7B69092A270970FA543EC3 /* Pods_beatstreet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,8 +72,8 @@
 			children = (
 				18D231C924CCEF9200344EAA /* beatstreet 1.0 */,
 				18D231C824CCEF9200344EAA /* Products */,
-				80D32E80CFF3D6BE889EA53A /* Pods */,
-				F040BC9E20B1E2E70B7D3D5C /* Frameworks */,
+				F760E9E821F8008BF30B7D10 /* Pods */,
+				7EC4723EAFC5A289B5DA6E2A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,27 +105,21 @@
 			path = "beatstreet 1.0";
 			sourceTree = "<group>";
 		};
-		80D32E80CFF3D6BE889EA53A /* Pods */ = {
+		7EC4723EAFC5A289B5DA6E2A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6346F34EE240014CE42FFEAB /* Pods-Beat Road 1.0.debug.xcconfig */,
-				66710AC371BF1C6FE4CFFC4D /* Pods-Beat Road 1.0.release.xcconfig */,
-				5E322E0C6BFE2E05951E3443 /* Pods-Beat Road 1.0-Beat Road 1.0UITests.debug.xcconfig */,
-				E65950B34FF1AF7EB4FAAE38 /* Pods-Beat Road 1.0-Beat Road 1.0UITests.release.xcconfig */,
-				13F167143584A5FC9240CDB9 /* Pods-Beat Road 1.0Tests.debug.xcconfig */,
-				C708A87CFD4C91F3D0044AC5 /* Pods-Beat Road 1.0Tests.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		F040BC9E20B1E2E70B7D3D5C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				54EA62ADEB518ECADF59B679 /* Pods_Beat_Road_1_0.framework */,
-				94D73787062CBA10C850EF23 /* Pods_Beat_Road_1_0_Beat_Road_1_0UITests.framework */,
-				77522974F6B8D11417BB9C29 /* Pods_Beat_Road_1_0Tests.framework */,
+				1C744DE4246B4F9A58697C50 /* Pods_beatstreet.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F760E9E821F8008BF30B7D10 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7330043DEF034FBB74CCCB0 /* Pods-beatstreet.debug.xcconfig */,
+				1229546A667ABE4B6FBBFD06 /* Pods-beatstreet.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,8 +133,8 @@
 				18D231C324CCEF9200344EAA /* Sources */,
 				18D231C424CCEF9200344EAA /* Frameworks */,
 				18D231C524CCEF9200344EAA /* Resources */,
-				2DA65274279A1992B55C63AE /* [CP] Embed Pods Frameworks */,
-				05C433C62577139E0076DCE6 /* Embed Frameworks */,
+				39B32B0B1D321A529BF830D4 /* [CP] Embed Pods Frameworks */,
+				05C4340A257722680076DCE6 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -207,21 +193,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2DA65274279A1992B55C63AE /* [CP] Embed Pods Frameworks */ = {
+		39B32B0B1D321A529BF830D4 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Beat Road 1.0/Pods-Beat Road 1.0-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-beatstreet/Pods-beatstreet-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Beat Road 1.0/Pods-Beat Road 1.0-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-beatstreet/Pods-beatstreet-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Beat Road 1.0/Pods-Beat Road 1.0-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-beatstreet/Pods-beatstreet-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C66E0EC3C2A9D9D6E7D562CF /* [CP] Check Pods Manifest.lock */ = {
@@ -239,7 +225,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Beat Road 1.0-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-beatstreet-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -404,7 +390,7 @@
 		};
 		18D231F224CCEF9400344EAA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6346F34EE240014CE42FFEAB /* Pods-Beat Road 1.0.debug.xcconfig */;
+			baseConfigurationReference = E7330043DEF034FBB74CCCB0 /* Pods-beatstreet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -414,7 +400,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Jorge-Angel.beatstreet";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nlampa.beatstreet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -423,7 +409,7 @@
 		};
 		18D231F324CCEF9400344EAA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 66710AC371BF1C6FE4CFFC4D /* Pods-Beat Road 1.0.release.xcconfig */;
+			baseConfigurationReference = 1229546A667ABE4B6FBBFD06 /* Pods-beatstreet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -433,7 +419,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Jorge-Angel.beatstreet";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nlampa.beatstreet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -1,0 +1,6 @@
+framework module Pods_beatstreet {
+  umbrella header "Pods-beatstreet-umbrella.h"
+
+  export *
+  module * { export * }
+}
