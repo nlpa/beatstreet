@@ -12,7 +12,7 @@
         <!--Home-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BEAT_STREET" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="beatstreet" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -76,7 +76,7 @@
         <!--Map View Controller-->
         <scene sceneID="fQu-a5-kIJ">
             <objects>
-                <viewController id="Udw-QB-BBk" customClass="MapViewController" customModule="BEAT_STREET" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Udw-QB-BBk" customClass="MapViewController" customModule="beatstreet" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Wbi-KN-ZcB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -111,7 +111,7 @@
         <!--Submit A Report-->
         <scene sceneID="Yi4-Af-1LE">
             <objects>
-                <viewController id="MOn-dc-Ohq" customClass="ReportViewController" customModule="BEAT_STREET" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="MOn-dc-Ohq" customClass="ReportViewController" customModule="beatstreet" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Mfk-7m-KIL">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -318,7 +318,7 @@
         <!--Report View Controller-->
         <scene sceneID="iSJ-NW-nHj">
             <objects>
-                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="overCurrentContext" id="YjB-VM-dn3" customClass="ReportViewController" customModule="BEAT_STREET" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="overCurrentContext" id="YjB-VM-dn3" customClass="ReportViewController" customModule="beatstreet" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="D4W-2p-Sh1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -423,7 +423,7 @@
         <!--Map View Controller-->
         <scene sceneID="WfL-qG-Y4U">
             <objects>
-                <viewController id="6gY-0O-Dum" customClass="MapViewController" customModule="BEAT_STREET" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="6gY-0O-Dum" customClass="MapViewController" customModule="beatstreet" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vSu-c3-ZN8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -512,14 +512,14 @@
         <!--Vote for a Steet-->
         <scene sceneID="Xr3-sA-8e2">
             <objects>
-                <tableViewController id="h0V-20-O2i" customClass="VoteStreetTableViewController" customModule="BEAT_STREET" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="h0V-20-O2i" customClass="VoteStreetTableViewController" customModule="beatstreet" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="323" sectionHeaderHeight="28" sectionFooterHeight="28" id="MDW-Zw-0g7">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <color key="tintColor" systemColor="groupTableViewBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="reuseIdentifier" rowHeight="323" id="9cp-xg-hYX" customClass="StreetTableViewCell" customModule="BEAT_STREET" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="reuseIdentifier" rowHeight="323" id="9cp-xg-hYX" customClass="StreetTableViewCell" customModule="beatstreet" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="414" height="323"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9cp-xg-hYX" id="VNm-dG-a3x">
@@ -630,13 +630,13 @@
         <!--Leaderboards-->
         <scene sceneID="g6y-hd-x6V">
             <objects>
-                <tableViewController id="X9n-c8-6GF" customClass="VoteStreetTableViewController" customModule="BEAT_STREET" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="X9n-c8-6GF" customClass="VoteStreetTableViewController" customModule="beatstreet" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="309" sectionHeaderHeight="28" sectionFooterHeight="28" id="rcP-gP-5de">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="reuseIdentifier" rowHeight="309" id="Y3h-xd-YZs" customClass="StreetTableViewCell" customModule="BEAT_STREET" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="reuseIdentifier" rowHeight="309" id="Y3h-xd-YZs" customClass="StreetTableViewCell" customModule="beatstreet" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="414" height="309"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Y3h-xd-YZs" id="nFy-JH-phd">

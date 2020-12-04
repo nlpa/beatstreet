@@ -3,21 +3,19 @@
 //  Beat Road 1.0
 //
 //  Created by Apple on 7/29/20.
-//  Copyright © 2020 Sal Abuali, Jorge Angel, Natalie, Jonathan. All rights reserved.
+//  Copyright © 2020 Sal Abuali, Jorge Angel, Natalie L., Jonathan E. All rights reserved.
 //
 
 import UIKit
-
+import Firebase
 
 class ReportViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
-    //--------------------------------
     
-    
-    
+    let ref = Database.database().reference(withPath: "reports")
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        let rootRef = Database.database().reference()
         // Do any additional setup after loading the view.
     }
     
@@ -53,11 +51,6 @@ class ReportViewController: UIViewController, UIImagePickerControllerDelegate, U
         actionSheet.addAction(cameraAction)
         actionSheet.addAction(libraryAction)
         present(actionSheet, animated: true)
-
-        
-       // let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
-        
-       
         
 }
     
@@ -82,7 +75,6 @@ class ReportViewController: UIViewController, UIImagePickerControllerDelegate, U
         
     }
     
-    //-------------------------------
     //-------------------------------
     @IBOutlet weak var TitleScreenLable: UILabel! // label will switch fron beat street to bestowed road when slectd
     
