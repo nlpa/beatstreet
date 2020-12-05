@@ -285,6 +285,7 @@
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="medium"/>
                                 </state>
                                 <connections>
+                                    <action selector="onSubmitPressed:" destination="MOn-dc-Ohq" eventType="touchUpInside" id="kEO-Fa-CFV"/>
                                     <segue destination="kRb-Rf-lya" kind="show" id="c7n-Bw-0Jm"/>
                                 </connections>
                             </button>

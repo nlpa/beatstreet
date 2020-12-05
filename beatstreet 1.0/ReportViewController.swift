@@ -5,23 +5,30 @@
 //  Created by Apple on 7/29/20.
 //  Copyright © 2020 Sal Abuali, Jorge Angel, Natalie L., Jonathan E. All rights reserved.
 //
-
+import Foundation
 import UIKit
 import Firebase
 
 class ReportViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
+    let listToUsers = "ListToUsers"
+    
+    var items: [Report] = []
+    var user: User!
+    var userCountBarButtonItem: UIBarButtonItem!
     let ref = Database.database().reference(withPath: "reports")
+//    let usersRef = Database.database().reference(withPath: "online")
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let rootRef = Database.database().reference()
-        // Do any additional setup after loading the view.
+//        let rootRef = Database.database().reference()
+        
+        
     }
     
     
-    // To upload Images or to take a pic with the camera
     
+    // To upload Images or to take a pic with the camera
     
     @IBOutlet weak var imageView: UIImageView!
     
@@ -107,5 +114,40 @@ class ReportViewController: UIViewController, UIImagePickerControllerDelegate, U
     @IBAction func wardDismissInfo(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
+    
+    @IBAction func onSubmitPressed(_ sender: UIButton) {
+        let alert = UIAlertController(title: "Report",
+                                      message: "Submit your report",
+                                      preferredStyle: .alert)
+        
+        
+        
+        let submitAction = UIAlertAction(title: "Submit",
+                                       style: .default) { _ in
+            // 1
+            guard let textField = alert.textFields?.first,
+              let text = textField.text else { return }
+
+            // 2
+            let report = Report(name: text)
+            // 3
+            let reportRef = self.ref.child(text.lowercased())
+
+            // 4
+            reportRef.setValue(report.toAnyObject())
+        }
+        
+        let cancelAction = UIAlertAction(title: "Cancel",
+                                         style: .cancel)
+        
+        alert.addTextField()
+        
+        alert.addAction(submitAction)
+        alert.addAction(cancelAction)
+        
+        present(alert, animated: true, completion: nil)
+
+    }
+    
     
 }// [class end]

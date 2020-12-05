@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		05708FAD24D0C0B9007D452E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 05708FAC24D0C0B9007D452E /* GoogleService-Info.plist */; };
+		05C93771257ACEE10073C8E0 /* Report.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C93770257ACEE10073C8E0 /* Report.swift */; };
+		05C93773257AD0380073C8E0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C93772257AD0380073C8E0 /* User.swift */; };
 		180DC53324D9F10800B0138F /* VoteStreetTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180DC53224D9F10800B0138F /* VoteStreetTableViewController.swift */; };
 		180DC53524D9F23400B0138F /* StreetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180DC53424D9F23400B0138F /* StreetTableViewCell.swift */; };
 		180DC53724D9F66900B0138F /* Street.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180DC53624D9F66900B0138F /* Street.swift */; };
@@ -37,6 +39,8 @@
 
 /* Begin PBXFileReference section */
 		05708FAC24D0C0B9007D452E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		05C93770257ACEE10073C8E0 /* Report.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Report.swift; sourceTree = "<group>"; };
+		05C93772257AD0380073C8E0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		1229546A667ABE4B6FBBFD06 /* Pods-beatstreet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-beatstreet.release.xcconfig"; path = "Target Support Files/Pods-beatstreet/Pods-beatstreet.release.xcconfig"; sourceTree = "<group>"; };
 		180DC53224D9F10800B0138F /* VoteStreetTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteStreetTableViewController.swift; sourceTree = "<group>"; };
 		180DC53424D9F23400B0138F /* StreetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreetTableViewCell.swift; sourceTree = "<group>"; };
@@ -67,9 +71,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05C9376F257ACECB0073C8E0 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				05C93770257ACEE10073C8E0 /* Report.swift */,
+				05C93772257AD0380073C8E0 /* User.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
 		18D231BE24CCEF9200344EAA = {
 			isa = PBXGroup;
 			children = (
+				05C9376F257ACECB0073C8E0 /* models */,
 				18D231C924CCEF9200344EAA /* beatstreet 1.0 */,
 				18D231C824CCEF9200344EAA /* Products */,
 				F760E9E821F8008BF30B7D10 /* Pods */,
@@ -244,8 +258,10 @@
 				180DC53524D9F23400B0138F /* StreetTableViewCell.swift in Sources */,
 				180DC53324D9F10800B0138F /* VoteStreetTableViewController.swift in Sources */,
 				18D231CB24CCEF9200344EAA /* AppDelegate.swift in Sources */,
+				05C93771257ACEE10073C8E0 /* Report.swift in Sources */,
 				18D231CD24CCEF9200344EAA /* SceneDelegate.swift in Sources */,
 				180DC53724D9F66900B0138F /* Street.swift in Sources */,
+				05C93773257AD0380073C8E0 /* User.swift in Sources */,
 				3E355B942549BB8D006E9317 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
