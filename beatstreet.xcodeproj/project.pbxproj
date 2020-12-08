@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		055101D52580427900794092 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 055101D42580427900794092 /* Images.xcassets */; };
 		05708FAD24D0C0B9007D452E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 05708FAC24D0C0B9007D452E /* GoogleService-Info.plist */; };
 		05C93771257ACEE10073C8E0 /* Report.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C93770257ACEE10073C8E0 /* Report.swift */; };
 		05C93773257AD0380073C8E0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C93772257AD0380073C8E0 /* User.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		055101D42580427900794092 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = beatstreet/Images.xcassets; sourceTree = "<group>"; };
 		05708FAC24D0C0B9007D452E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		05C93770257ACEE10073C8E0 /* Report.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Report.swift; sourceTree = "<group>"; };
 		05C93772257AD0380073C8E0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 		18D231BE24CCEF9200344EAA = {
 			isa = PBXGroup;
 			children = (
+				055101D42580427900794092 /* Images.xcassets */,
 				05C9376F257ACECB0073C8E0 /* models */,
 				18D231C924CCEF9200344EAA /* beatstreet 1.0 */,
 				18D231C824CCEF9200344EAA /* Products */,
@@ -198,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18D231D724CCEF9400344EAA /* LaunchScreen.storyboard in Resources */,
+				055101D52580427900794092 /* Images.xcassets in Resources */,
 				05708FAD24D0C0B9007D452E /* GoogleService-Info.plist in Resources */,
 				18D231D424CCEF9400344EAA /* Assets.xcassets in Resources */,
 				18D231D224CCEF9200344EAA /* Main.storyboard in Resources */,

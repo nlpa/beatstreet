@@ -33,14 +33,10 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="newlogobeatstrt02" translatesAutoresizingMaskIntoConstraints="NO" id="Be1-rY-I97">
-                                <rect key="frame" x="-1" y="51" width="414" height="287"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rOa-gc-lxq">
                                 <rect key="frame" x="32" y="509" width="348" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                                <color key="backgroundColor" red="0.94995027779999996" green="0.60914844270000001" blue="0.1330735385" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="17"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="SETTINGS" image="gear" catalog="system"/>
@@ -48,10 +44,9 @@
                                     <segue destination="mzi-nQ-hrX" kind="showDetail" id="bHb-Uc-O0z"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nlE-B0-DWU">
-                                <rect key="frame" x="33" y="403" width="347" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nlE-B0-DWU">
+                                <rect key="frame" x="33" y="403" width="347" height="20"/>
+                                <color key="backgroundColor" red="0.94995027779999996" green="0.60914844270000001" blue="0.1330735385" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="17"/>
                                 <color key="tintColor" systemColor="groupTableViewBackgroundColor"/>
                                 <state key="normal" title="OUR MISSION" image="suit.heart.fill" catalog="system"/>
@@ -59,10 +54,23 @@
                                     <segue destination="6gY-0O-Dum" kind="show" id="2df-sg-Ah3"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bs-logotype" translatesAutoresizingMaskIntoConstraints="NO" id="Be1-rY-I97">
+                                <rect key="frame" x="43" y="97" width="329" height="220"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Be1-rY-I97" secondAttribute="height" multiplier="329:220" id="YTs-Mw-n97"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Be1-rY-I97" secondAttribute="trailing" constant="43" id="0h7-9U-pGx"/>
+                            <constraint firstItem="Be1-rY-I97" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="53" id="8wh-ib-tcR"/>
+                            <constraint firstItem="nlE-B0-DWU" firstAttribute="top" secondItem="Be1-rY-I97" secondAttribute="bottom" constant="86" id="fY1-RX-k99"/>
+                            <constraint firstItem="Be1-rY-I97" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="43" id="yDO-5r-btk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Be1-rY-I97" secondAttribute="trailing" constant="42" id="zjE-BX-ShK"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Home" image="house" catalog="system" selectedImage="house.fill" id="xLf-sf-eiy"/>
                     <navigationItem key="navigationItem" id="dDz-gf-cWY">
@@ -297,7 +305,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="beatstreet05" translatesAutoresizingMaskIntoConstraints="NO" id="FRF-Og-MWU">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AppIcon" translatesAutoresizingMaskIntoConstraints="NO" id="FRF-Og-MWU">
                                 <rect key="frame" x="107" y="560" width="201" height="152"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -907,8 +915,10 @@
         <segue reference="mMn-7s-Qqt"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="AppIcon" width="1541" height="1908"/>
         <image name="arrowshape.turn.up.right.fill" catalog="system" width="128" height="106"/>
         <image name="beatstreet05" width="1201" height="1201"/>
+        <image name="bs-logotype" width="4084" height="678"/>
         <image name="camera.fill" catalog="system" width="128" height="94"/>
         <image name="checkmark.rectangle.fill" catalog="system" width="128" height="93"/>
         <image name="checkmark.seal.fill" catalog="system" width="128" height="128"/>
@@ -925,7 +935,6 @@
         <image name="magnifyingglass.circle.fill" catalog="system" width="128" height="121"/>
         <image name="map.fill" catalog="system" width="128" height="110"/>
         <image name="maxresdefault" width="1280" height="720"/>
-        <image name="newlogobeatstrt02" width="1016" height="1016"/>
         <image name="pause.rectangle" catalog="system" width="128" height="93"/>
         <image name="pause.rectangle.fill" catalog="system" width="128" height="93"/>
         <image name="square.stack.3d.up" catalog="system" width="128" height="124"/>
