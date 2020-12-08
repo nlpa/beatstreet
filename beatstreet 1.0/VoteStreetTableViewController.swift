@@ -1,12 +1,13 @@
 //
 //  ReportViewController.swift
-//  Beat Road 1.0
+//  beatstreet
 //
-//  Created by Apple on 7/29/20.
-//  Copyright © 2020 Sal Abuali, Jorge Angel, Natalie Lampa, Jonathan E. All rights reserved.
+//  Created by Natalie Lampa on 12/7/2020.
 //
 
 import UIKit
+import Firebase
+import SDWebImage
 
 class VoteStreetTableViewController: UITableViewController // view controller holding some basic preset data as examples
 {
@@ -30,18 +31,6 @@ class VoteStreetTableViewController: UITableViewController // view controller ho
         
         streets = [street1, street2, street3, street4 , street5 , street6] // used to append our pre-SET data.
         
-        
-        
-        
-        
-        
-        
-        
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-        
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
     
     // MARK: - Table view data source
@@ -65,12 +54,19 @@ class VoteStreetTableViewController: UITableViewController // view controller ho
         cell.streetImageView.image = street.image! // will display the images stores in data
         // Configure the cell...
         
-        
-        
         return cell
+        
+        
     } // [tableView END]
     
-    
+//    func updateCount(str: String) {
+//       let votesRef = self.ref.child(str).child("votes")
+//       votesRef.observeSingleEvent(of: .value, with: { snapshot in
+//          var currentCount = snapshot.value as? Int ?? 0
+//          currentCount += 1
+//          votesRef.setValue(currentCount)
+//       })
+//    }
 
     
     
