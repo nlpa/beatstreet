@@ -17,9 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yg0-DW-ZUb">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yg0-DW-ZUb">
                                 <rect key="frame" x="33" y="858" width="59" height="22"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="systemRedColor"/>
                                 <state key="normal" title="Help" image="heart.fill" catalog="system">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -33,9 +32,8 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rOa-gc-lxq">
-                                <rect key="frame" x="32" y="509" width="348" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rOa-gc-lxq">
+                                <rect key="frame" x="33" y="725" width="361" height="60"/>
                                 <color key="backgroundColor" red="0.94995027779999996" green="0.60914844270000001" blue="0.1330735385" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="17"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -44,8 +42,14 @@
                                     <segue destination="mzi-nQ-hrX" kind="showDetail" id="bHb-Uc-O0z"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nlE-B0-DWU">
-                                <rect key="frame" x="33" y="403" width="347" height="20"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bs-logotype" translatesAutoresizingMaskIntoConstraints="NO" id="Be1-rY-I97">
+                                <rect key="frame" x="43" y="97" width="329" height="220"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Be1-rY-I97" secondAttribute="height" multiplier="329:220" id="YTs-Mw-n97"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nlE-B0-DWU">
+                                <rect key="frame" x="33" y="687" width="361" height="20"/>
                                 <color key="backgroundColor" red="0.94995027779999996" green="0.60914844270000001" blue="0.1330735385" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="17"/>
                                 <color key="tintColor" systemColor="groupTableViewBackgroundColor"/>
@@ -54,20 +58,20 @@
                                     <segue destination="6gY-0O-Dum" kind="show" id="2df-sg-Ah3"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bs-logotype" translatesAutoresizingMaskIntoConstraints="NO" id="Be1-rY-I97">
-                                <rect key="frame" x="43" y="97" width="329" height="220"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="Be1-rY-I97" secondAttribute="height" multiplier="329:220" id="YTs-Mw-n97"/>
-                                </constraints>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Be1-rY-I97" secondAttribute="trailing" constant="43" id="0h7-9U-pGx"/>
+                            <constraint firstItem="rOa-gc-lxq" firstAttribute="top" secondItem="nlE-B0-DWU" secondAttribute="bottom" constant="18" id="3yy-lo-hwk"/>
                             <constraint firstItem="Be1-rY-I97" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="53" id="8wh-ib-tcR"/>
-                            <constraint firstItem="nlE-B0-DWU" firstAttribute="top" secondItem="Be1-rY-I97" secondAttribute="bottom" constant="86" id="fY1-RX-k99"/>
+                            <constraint firstItem="nlE-B0-DWU" firstAttribute="trailing" secondItem="rOa-gc-lxq" secondAttribute="trailing" id="Bw0-RT-hsI"/>
+                            <constraint firstItem="nlE-B0-DWU" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="KAE-Sp-emf"/>
+                            <constraint firstItem="nlE-B0-DWU" firstAttribute="leading" secondItem="rOa-gc-lxq" secondAttribute="leading" id="b7t-Xp-ph1"/>
+                            <constraint firstItem="nlE-B0-DWU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="33" id="dLL-D6-r1k"/>
+                            <constraint firstAttribute="bottom" secondItem="nlE-B0-DWU" secondAttribute="bottom" constant="189" id="eU3-BW-Nkz"/>
+                            <constraint firstItem="nlE-B0-DWU" firstAttribute="leading" secondItem="yg0-DW-ZUb" secondAttribute="leading" id="urY-QE-0JY"/>
                             <constraint firstItem="Be1-rY-I97" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="43" id="yDO-5r-btk"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Be1-rY-I97" secondAttribute="trailing" constant="42" id="zjE-BX-ShK"/>
                         </constraints>
@@ -305,7 +309,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AppIcon" translatesAutoresizingMaskIntoConstraints="NO" id="FRF-Og-MWU">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="FRF-Og-MWU">
                                 <rect key="frame" x="107" y="560" width="201" height="152"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -915,7 +919,7 @@
         <segue reference="mMn-7s-Qqt"/>
     </inferredMetricsTieBreakers>
     <resources>
-        <image name="AppIcon" width="1541" height="1908"/>
+        <image name="Image" width="1541" height="1908"/>
         <image name="arrowshape.turn.up.right.fill" catalog="system" width="128" height="106"/>
         <image name="beatstreet05" width="1201" height="1201"/>
         <image name="bs-logotype" width="4084" height="678"/>

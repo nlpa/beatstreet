@@ -6,7 +6,7 @@
       "size" : "20x20"
     },
     {
-      "filename" : "BTST.png",
+      "filename" : "bs-logomark60.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "20x20"
@@ -87,6 +87,7 @@
       "size" : "83.5x83.5"
     },
     {
+      "filename" : "bs-logomark1024.png",
       "idiom" : "ios-marketing",
       "scale" : "1x",
       "size" : "1024x1024"
