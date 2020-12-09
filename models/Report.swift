@@ -1,6 +1,6 @@
 //
 //  Report.swift
-//  beatstreet 1.0
+//  beatstreet
 //
 //  Created by Natalie Lampa on 12/4/2020.
 //

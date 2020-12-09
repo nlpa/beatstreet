@@ -1,10 +1,7 @@
 //
 //  User.swift
-//  beatstreet 1.0
+//  beatstreet
 //
-//  Created by Natalie Lampa on 12/4/2020.
-//
-
 
 import Foundation
 import Firebase
