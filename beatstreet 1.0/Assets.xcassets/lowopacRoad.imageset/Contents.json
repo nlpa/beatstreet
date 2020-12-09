@@ -1,6 +1,13 @@
 {
   "images" : [
     {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD:beatstreet 1.0/Assets.xcassets/Bestowed4.imageset/Contents.json
+      "filename" : "Bestowed4.jpg",
+=======
+>>>>>>> parent of 390411c... added imgs:beatstreet 1.0/Assets.xcassets/lowopacRoad.imageset/Contents.json
+>>>>>>> parent of 390411c... added imgs
       "idiom" : "universal",
       "filename" : "lowopacRoad.png",
       "scale" : "1x"

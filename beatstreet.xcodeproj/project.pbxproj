@@ -199,7 +199,10 @@
 			files = (
 				18D231D724CCEF9400344EAA /* LaunchScreen.storyboard in Resources */,
 <<<<<<< HEAD
+<<<<<<< HEAD
 				05AEAD8E258056FB004DAB97 /* Main.storyboard in Resources */,
+=======
+>>>>>>> parent of 390411c... added imgs
 =======
 >>>>>>> parent of 390411c... added imgs
 				05708FAD24D0C0B9007D452E /* GoogleService-Info.plist in Resources */,

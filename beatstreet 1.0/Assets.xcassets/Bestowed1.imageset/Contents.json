@@ -1,7 +1,11 @@
 {
   "images" : [
     {
+<<<<<<< HEAD:beatstreet 1.0/Assets.xcassets/Bestowed1.imageset/Contents.json
       "filename" : "Bestowed1.jpg",
+=======
+      "filename" : "beatstreet05.png",
+>>>>>>> parent of 390411c... added imgs:beatstreet 1.0/Assets.xcassets/beatstreet05-1.imageset/Contents.json
       "idiom" : "universal",
       "scale" : "1x"
     },
