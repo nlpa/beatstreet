@@ -309,10 +309,7 @@
                     <connections>
                         <outlet property="TitleScreenLable" destination="aPF-cj-z6j" id="adl-QI-zmY"/>
                         <outlet property="imageView" destination="FRF-Og-MWU" id="jcQ-bi-aQb"/>
-                        <outlet property="imgInput" destination="FRF-Og-MWU" id="3cT-aq-q0f"/>
-                        <outlet property="locationInput" destination="uaw-AF-NLr" id="kNm-u8-Lzg"/>
                         <outlet property="segue" destination="eC2-2s-EwF" id="ZeV-dG-Y2a"/>
-                        <outlet property="wardInput" destination="ctt-jm-Psa" id="G0m-aS-Oc0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gQq-eC-R2G" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
